@@ -1,0 +1,8 @@
+.header {
+    padding: 1rem;
+    background-color: black;
+}
+
+.header__logo {
+    width: 150px;
+}
