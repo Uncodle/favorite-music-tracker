@@ -1,0 +1,6 @@
+.block .header__title {
+    font-size: 2.5em;
+    margin-bottom: 3rem;
+    font-weight: bold;
+    color: var(--grey-color);
+}

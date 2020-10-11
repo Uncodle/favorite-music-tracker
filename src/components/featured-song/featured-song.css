@@ -1,0 +1,51 @@
+.featured__song {
+    padding: 4rem;
+}
+
+.featured__song  .song {
+    padding: 0 3rem;
+    width: 40%;
+    height: 200px;
+    margin: 5em auto;
+    background: white;
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    box-shadow: 0 0 20px #eee;
+}
+
+.featured__song .song__cover {
+    position: absolute;
+    top: -25px;
+    right: -25px;
+}
+
+.featured__song .song__cover img {
+    box-shadow: 0 0 20px #eee;
+}
+
+.featured__song .song__title {
+    font-size: 2em;    
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.featured__song .song__author {
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.featured__song .song__repetitions {
+    top: 10px;
+    left: -10px;
+    color: white;
+    padding: .6em 2em;
+    font-size: .95em;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: var(--purple-color);
+}
+    

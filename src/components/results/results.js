@@ -1,10 +1,14 @@
 import React from 'react';
-import Card from '../card/card';
+import Songs from '../songs/songs';
+import FeaturedSong from '../featured-song/featured-song';
 
 export class Results extends React.Component {
     render(){
         return(
-            <Card/>
+            <main>
+                <FeaturedSong/>
+                <Songs/>
+            </main>
         );
     }
 }

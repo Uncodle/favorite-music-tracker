@@ -4,14 +4,14 @@ import './search.css';
 export class Search extends React.Component {
     render(){
         return (
-            <section className="search">
+            <section className="block search">
                 <header className="search__header">
                     <h1 className="header__title">Favorite Music Tracker</h1>
                     <p className="header__description">An web application to discover the music that appears most in your playlists.</p>
                 </header>
                 <form className="search__form">
-                    <input className="form__input" type="text" name="search" placeholder="Insert the user's ID: "/>
-                    <button>Discover</button>
+                    <input className="form__input" type="text" name="search" placeholder="Enter the user id..."/>
+                    <button type="button" className="button">Discover</button>
                 </form>
             </section>
         );

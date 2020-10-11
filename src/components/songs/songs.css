@@ -1,0 +1,22 @@
+.more__songs {
+    padding: 3rem;
+}
+
+.more__songs .songs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.more__songs .song {
+    margin-bottom: 20px;
+    margin-right: 20px;
+    background-color: white;
+}
+
+
+.more__songs .song__details {
+    padding: 1em;
+}
+
