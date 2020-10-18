@@ -1,16 +1,17 @@
 .featured__song {
-    padding: 4rem;
+    padding: 3rem 0;
 }
 
 .featured__song  .song {
-    padding: 0 3rem;
+    padding: 3em;
+    border-radius: var(--default-border-radius);
     width: 40%;
-    height: 200px;
+    height: 280px;
     margin: 5em auto;
     background: white;
     display: flex;
     text-align: left;
-    justify-content: center;
+    justify-content: flex-end;
     flex-direction: column;
     position: relative;
     box-shadow: 0 0 20px #eee;
@@ -18,12 +19,19 @@
 
 .featured__song .song__cover {
     position: absolute;
-    top: -25px;
-    right: -25px;
+    top: -35px;
+    right: -35px;
+    max-width: 250px;
+}
+
+.featured__song .button--secondary {
+    margin-top: 25px;
 }
 
 .featured__song .song__cover img {
+    border-radius: var(--default-border-radius);
     box-shadow: 0 0 20px #eee;
+    max-width: 100%;
 }
 
 .featured__song .song__title {
@@ -38,13 +46,15 @@
 }
 
 .featured__song .song__repetitions {
-    top: 10px;
-    left: -10px;
+    top: 15px;
+    left: -15px;
     color: white;
-    padding: .6em 2em;
-    font-size: .95em;
+    padding: .6em 4em;
+    font-size: 1.2em;
+    font-weight: 600;
     position: absolute;
     text-align: center;
+    border-radius: var(--default-border-radius);
     text-transform: uppercase;
     background-color: var(--purple-color);
 }

@@ -1,14 +1,25 @@
-import React from 'react';
-import Songs from '../songs/songs';
+import React, { Fragment } from 'react';
 import FeaturedSong from '../featured-song/featured-song';
+import { TracksContext } from '../../providers/tracks.context';
 
 export class Results extends React.Component {
     render(){
+        const { state } = this;
+        console.log(state);
+        
         return(
+            <TracksContext.Consumer>
+          {
+            ({state}) => (
             <main>
-                <FeaturedSong/>
-                <Songs/>
+                <Fragment>
+                    <FeaturedSong {...{ state }}/>
+                    {/* <Songs {...{ context }}/> */}
+                </Fragment>    
             </main>
+            )
+        }
+        </TracksContext.Consumer>
         );
     }
 }

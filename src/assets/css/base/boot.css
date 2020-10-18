@@ -4,6 +4,7 @@
     --purple-color: #5100d2;
     --grey-color: #353233;
     --light-color: #f2f2f2;
+    --default-border-radius: 4px;
 }
 
 *, *:before, *:after {

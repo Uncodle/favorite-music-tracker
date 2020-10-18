@@ -1,0 +1,39 @@
+.button {
+    padding: 1rem 2rem;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 60px;
+    font-size: 1.2em;
+    font-weight: 500;
+    background-color: transparent;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.button--primary {
+    color: white;
+    border-color: white;
+}
+
+.button--primary:hover {
+    color: black;
+    background-color: white;
+}
+
+.button--secondary {
+    width: 300px;
+    font-weight: 600;
+    text-align: center;
+    border-color: var(--purple-color);
+    color: var(--purple-color);
+}
+
+.button--login {
+    color: white;
+    background-color: var(--green-color);
+}
+
+.button--login:hover {
+    background-color: var(--green-hover-color);
+}
